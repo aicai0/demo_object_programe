@@ -39,7 +39,7 @@ elements.login.loginButton.onclick = function () {
             elements.game.heroView.appendChild(heroItem);
             heroItem.onclick = function(){
                 elements.game.heroshow.innerHTML = hero.name;
-                console.log(game)
+                // console.log(game)
                 elements.game.skillView.innerHTML = ''
                 hero.skills.forEach(skill=>{
                     let skillItem = document.createElement("div");
